@@ -1,0 +1,162 @@
+
+header{
+	background-color: #032d50;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+.box{
+    border-radius: 24px;
+    box-shadow: 0 24px 43px 7px rgba(0,0,0,.07);
+}
+
+.row-table{
+	    border: 3px solid #f3f3f3;
+	    border-radius: 20px;
+}
+
+.recent-transit-box{
+	height: 57vh;
+	overflow: auto;
+}
+
+.search-input button{
+	border-radius: 0px 10px 10px 0px !important;
+}
+
+.search-input input{
+	border: 3px solid #f3f3f3;
+	border-radius: 15px 0px 0px 15px !important;
+	padding-left: 3%;
+}
+
+.pagination li a.active {
+	border: 3px solid #1fbf53;
+}
+
+.pagination li a{
+	border: 3px solid #d4d4d4;
+	width: 42px;
+	height:42px;
+}
+
+select{
+	border: 3px solid #d4d4d4;
+}
+
+.page-header-icon{
+	font-size: 29px;
+	color: #7d7d7d;
+}
+
+.bg-main{
+	background-color: #efefef;
+}
+
+.bg-main-color{
+	background-color: #1fbf53;
+	cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.bg-main-color:hover{
+	background-color: #fff;
+    color: #1fbf53 !important;
+    border:1px solid #1fbf53;
+}
+
+.border-main{
+	border:1px solid #f3f3f3;
+}
+
+.div-border{
+		border-right: 3px solid #f3f3f3;
+}
+
+.vertical-center-main{
+	position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+.header-icon{
+	font-size: 27px;
+}
+
+p{
+	color: #4d4d4d;
+    line-height: 1.8;
+}
+
+.browsing-content-text{
+	height: 80vh;
+}
+
+.footer-link{
+    border: 1px solid #979797;
+    border-radius: 25px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.footer-link:hover{
+	background-color: #eaeef1;
+    border-color: #eaeef1;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.footer-link i{
+	color: #1fbf53;
+	font-size: 32px;
+	margin-bottom: 2%;
+}
+
+/* scrollbar start */
+
+/* width */
+.recent-transit-box::-webkit-scrollbar, .browsing-content-text::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.recent-transit-box::-webkit-scrollbar-track, .browsing-content-text::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.recent-transit-box::-webkit-scrollbar-thumb, .browsing-content-text::-webkit-scrollbar-thumb {
+  background: #909090; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@media (max-width: 768px) {
+	header{
+		padding: 2%;
+	}
+}
+
+@media (max-width: 520px) {
+	.div-border{
+		border-bottom: 3px solid #f3f3f3;
+		border-right: 0px;
+}
+
+	.image-icon{
+		width: 25% !important;
+	}
+
+	.heading{
+		font-size: 18px;
+    	line-height: 1.5;
+	}
+
+}
+
+
+
+
