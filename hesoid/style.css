@@ -11,13 +11,16 @@ header{
 }
 
 .row-table{
-	    border: 3px solid #f3f3f3;
-	    border-radius: 20px;
+    border: 3px solid #f3f3f3;
+    border-radius: 20px;
 }
 
 .recent-transit-box{
 	height: 57vh;
-	overflow: auto;
+}
+
+.reading-a-transcript{
+	height: 60vh;
 }
 
 .search-input button{
@@ -84,6 +87,10 @@ select{
 	font-size: 27px;
 }
 
+.text-main{
+	color: #1fbf53;
+}
+
 p{
 	color: #4d4d4d;
     line-height: 1.8;
@@ -112,21 +119,62 @@ p{
 	margin-bottom: 2%;
 }
 
+.music-play-row{
+	background-color: #eaeef1;
+    border-color: #eaeef1;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.music-play-row:hover{
+	box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.read-more-arrow{
+	width: 42px;
+	height: 42px;
+	border:1px solid #1fbf53;
+	margin: 0 auto;
+}
+
+.read-more-arrow i{
+	font-size: 23px;
+}
+
+.read-more-arrow:hover{
+	background-color: #1fbf53;
+	cursor: pointer;
+}
+
+.read-more-arrow:hover i{
+	color: #ffffff;
+}
+
 /* scrollbar start */
 
 /* width */
-.recent-transit-box::-webkit-scrollbar, .browsing-content-text::-webkit-scrollbar {
+.custom-scrollbar::-webkit-scrollbar {
   width: 3px;
 }
 
 /* Track */
-.recent-transit-box::-webkit-scrollbar-track, .browsing-content-text::-webkit-scrollbar-track {
+.custom-scrollbar::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
  
 /* Handle */
-.recent-transit-box::-webkit-scrollbar-thumb, .browsing-content-text::-webkit-scrollbar-thumb {
+.custom-scrollbar::-webkit-scrollbar-thumb {
   background: #909090; 
+}
+
+.icon-play{
+	font-size: 40px;
+	vertical-align: middle;
+	color: #1fbf53;
+}
+
+.icon-play-arrow{
+	vertical-align: middle;
 }
 
 /* Handle on hover */
@@ -134,25 +182,32 @@ p{
   background: #555; 
 }
 
-@media (max-width: 768px) {
-	header{
-		padding: 2%;
-	}
-}
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
 	.div-border{
 		border-bottom: 3px solid #f3f3f3;
 		border-right: 0px;
 }
 
 	.image-icon{
-		width: 25% !important;
+		width: 15% !important;
 	}
 
 	.heading{
 		font-size: 18px;
     	line-height: 1.5;
+	}
+
+	header{
+		padding: 2%;
+	}
+
+}
+
+@media (max-width: 520px) {
+
+	.image-icon{
+		width: 25% !important;
 	}
 
 }
